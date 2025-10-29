@@ -1,3 +1,7 @@
+    <div class="resize">
+        <span class="fakeAriane"><img width="9px" height="9px" src="./app/assets/home.svg" alt=""> /art shop/oeuvre/peinture/emmanuelle martin/jeune fille à la perle</span>
+    </div>
+
 <section id="thisArt">
     <div class="resize">
         <nav>

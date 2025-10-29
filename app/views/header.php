@@ -14,7 +14,7 @@
                     <li class="giftLink"><a href="#"><img width="30px" src="./app/assets/gift.svg" alt="Cadeau"></a></li>
                     <li class="wishListLink"><a href="#" class="redNotif"><img width="19px" src="./app/assets/heart.svg" alt="liste de souhait"></a></li>
                     <li class="basketLink"><a href="#" class="redNotif"><img width="15px" height="19px" src="./app/assets/basket.svg" alt="Panier"></a></li>
-                    <li class="profilLink"><a href="#"><img width="20px" src="./app/assets/profil.svg" alt="Profil"></a></li>
+                    <li class="profilLink"><a href="?path=register"><img width="20px" src="./app/assets/profil.svg" alt="Profil"></a></li>
                 </ul>
             </nav>
         </div>
@@ -22,7 +22,7 @@
     <div id="bottomHeader">
         <div class="resize">
             <a class="menuLink" href="#"><img width="4px" src="./app/assets/menu.svg" alt=""></a>
-            <h1><img src="./app/assets/logo.svg" width="52px" height="28px" alt=""><span>Art Interactivities</span></h1>
+            <h1><a href="./"><img src="./app/assets/logo.svg" width="52px" height="28px" alt=""><span>Art Interactivities</span></a></h1>
             <div class="searchButton">
                 <img width="12px" height="12px" src="./app/assets/magnifying.svg" alt="">
                 <input type="search" placeholder="Rechercher">
@@ -36,8 +36,5 @@
             <span class="thisRoundSelector"></span>
             <span class="thisRoundSelector"></span>
         </div>
-    </div>
-    <div class="resize">
-        <span class="fakeAriane"><img width="9px" height="9px" src="./app/assets/home.svg" alt=""> /art shop/oeuvre/peinture/emmanuelle martin/jeune fille à la perle</span>
     </div>
 </header>

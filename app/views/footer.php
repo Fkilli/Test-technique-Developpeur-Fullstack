@@ -92,7 +92,7 @@
     <section id="topFooter">
         <div class="resize">
             <div class="listTopFooter">
-                <div>
+                <div class="ourDNA">
                     <span><strong>Notre Adn</strong></span>
                     <ul>
                         <li><a href="#">Concept</a></li>
@@ -102,7 +102,7 @@
                     </ul>
                 </div>  
 
-                <div>
+                <div class="contactUs">
                     <span><strong>Nous contacter</strong></span>
                     <ul>
                         <li><a href="#">Presse</a></li>
@@ -112,7 +112,7 @@
                     </ul>
                 </div>  
 
-                <div>
+                <div class="buy">
                     <span><strong>Acheter</strong></span>
                     <ul>
                         <li><a href="#">Livraison</a></li>
