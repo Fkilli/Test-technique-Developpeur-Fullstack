@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -169,7 +169,6 @@ header {
 }
 
 /**responsiveHeader**/
-
 @media all and (min-width: 500px) and (max-width: 1019px) {
   header {
     #topHeader {
@@ -348,31 +347,29 @@ header {
   align-items: flex-start;
   justify-content: flex-start;
 
-  > {
-    div {
+  >  div {
       display: grid;
       grid-template-columns: 36px 36px;
       gap: 3px;
     }
 
-    img {
+  > img {
       margin-left: 15px;
       margin-bottom: 15px;
-    }
+  }
 
-    div {
+  > div {
       img {
         width: 100%;
         height: 50px;
         object-fit: cover;
-      }
+    }
 
-      a {
+  >a {
         color: red;
         text-decoration: none;
         font-size: 8px;
         align-self: center;
-      }
     }
   }
 }
@@ -386,25 +383,23 @@ header {
   margin-top: 6px;
   margin-right: 112px;
 
-  > {
-    img {
+  > img {
       width: 380px;
       height: 286px;
       object-fit: cover;
     }
 
-    div {
-      padding-left: 4px;
-      display: flex;
-      gap: 11px;
+  > div {
+    padding-left: 4px;
+    display: flex;
+    gap: 11px;
 
-      img {
-        cursor: pointer;
-        transition-duration: 0.5s;
+  >  img {
+      cursor: pointer;
+      transition-duration: 0.5s;
 
-        &:hover {
-          transform: scale(1.1);
-        }
+      &:hover {
+        transform: scale(1.1);
       }
     }
   }
@@ -577,7 +572,7 @@ header {
     margin-left: 9px;
   }
 
-  input[type="submit"] {
+  input[type=submit] {
     margin-top: 6px;
     text-transform: uppercase;
     text-align: center;
@@ -653,7 +648,6 @@ header {
 }
 
 /**artSectionResponsive**/
-
 @media all and (min-width: 500px) and (max-width: 1019px) {
   #thisArt nav {
     margin: 0 30px 36px;
@@ -683,16 +677,14 @@ header {
     flex-direction: row-reverse;
     align-items: center;
 
-    > {
-      img {
+    > img {
         transform: rotate(-90deg);
         margin: 0 0 0 20px;
       }
 
-      div {
+    > div {
         grid-template-columns: repeat(8, 36px);
       }
-    }
   }
 
   .mainArt {
@@ -783,21 +775,19 @@ header {
     margin-top: 19px;
     flex-direction: row-reverse;
 
-    > {
-      img {
+    > img {
         transform: rotate(-90deg);
       }
 
-      div {
+    > div {
         grid-template-columns: repeat(5, 16px);
         max-height: 23px;
         overflow: hidden;
 
-        img {
+    > img {
           height: 21px;
         }
       }
-    }
   }
 
   #artSelectorAndMainArt .informationSection {
@@ -935,7 +925,6 @@ header {
 }
 
 /**authorSectionResponsive**/
-
 @media all and (min-width: 320px) and (max-width: 1019px) {
   #authorSection {
     flex-direction: column-reverse;
@@ -1183,7 +1172,6 @@ header {
 }
 
 /**responsiveOtherArt**/
-
 @media all and (min-width: 320px) and (max-width: 1019px) {
   .otherArt {
     margin-right: 30px;
@@ -1310,7 +1298,6 @@ header {
 }
 
 /**endOfOtherArtResponsive**/
-
 @media all and (min-width: 320px) and (max-width: 1019px) {
   #endOfOtherArt p {
     margin-left: 30px;
@@ -1602,7 +1589,6 @@ footer {
 }
 
 /**footerResponsive**/
-
 @media all and (min-width: 320px) and (max-width: 1020px) {
   footer {
     margin-left: 0;
@@ -1621,11 +1607,13 @@ footer {
   }
 
   .listKnowledge {
-    margin: 33px 30px 33px 30px;
+    margin: 33px auto 33px auto;
     gap: 30px 60px;
     justify-content: center;
     align-items: center;
     grid-template-columns: repeat(auto-fill, 108px);
+    max-width: 672px;
+    padding: 0 30px;
   }
 
   #valueAndFollow > .resize {
@@ -1817,19 +1805,17 @@ footer {
       font-size: 14px;
     }
 
-    > {
-      div img {
+    > div img {
         width: 8px;
       }
 
-      img {
+    > img {
         width: 84px;
 
         &:nth-child(2), &:last-child {
           display: none;
         }
       }
-    }
   }
 
   /**knowledge**/
@@ -2011,15 +1997,15 @@ footer {
         width: 290px;
         outline: none;
 
-        &[disabled="true"] {
+        &[disabled=true] {
           background-color: #e5e5e5;
         }
 
-        &[type="radio"], &[type="checkbox"] {
+        &[type=radio], &[type=checkbox] {
           width: auto;
         }
 
-        &[type="date"] {
+        &[type=date] {
           border: none;
           width: 152px;
         }
@@ -2052,12 +2038,12 @@ footer {
     border: 1.5px solid black;
     padding: 10px 5px;
 
-        &[disabled="true"] {
-          background-color: #e5e5e5;
-        }
+    &[disabled=true] {
+      background-color: #e5e5e5;
+    }
   }
 
-  input[type="submit"] {
+  input[type=submit] {
     border: 5px solid black;
     width: 290px;
     padding: 15px 0;
@@ -2086,12 +2072,11 @@ footer {
   transition-duration: 0.5s;
 }
 
-.notificationGreen{
+.notificationGreen {
   background-color: green;
 }
 
 /**registerResponspive**/
-
 @media all and (max-width: 1019px) {
   .exposition {
     margin-right: 30px;
@@ -2197,14 +2182,13 @@ footer {
       right: 10px;
     }
 
-    input[type="submit"] {
+    input[type=submit] {
       max-width: 100%;
     }
   }
 }
 
 /**animation**/
-
 @-webkit-keyframes slide-in-bottom {
   0% {
     -webkit-transform: translateY(1000px);
