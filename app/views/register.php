@@ -11,13 +11,13 @@
                     <h2>1. Coordonnées de l'artiste</h2>
                     <div>
                         <label for="authorName">prénom</label>
-                        <input name="authorName" required type="text" >
+                        <input minlength="3" maxlength="32" name="authorName" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="familyNameAuthor">nom</label>
-                        <input name="familyNameAuthor" required type="text" >
+                        <input minlength="3" maxlength="32" name="familyNameAuthor" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -46,7 +46,7 @@
 
                     <div>
                         <label for="websiteAuthor">Site web de l'artiste</label>
-                        <input name="websiteAuthor" required type="text" >
+                        <input name="websiteAuthor" required type="url" >
                         <span class="asterix">*</span>
                     </div>
                     
@@ -54,19 +54,19 @@
 
                     <div>
                         <label for="emailConnexion">Adresse e-mail</label>
-                        <input name="emailConnexion" required type="mail" >
+                        <input name="emailConnexion" required type="email" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="passwordConnexion">Mot de passe</label>
-                        <input name="passwordConnexion" required type="password" >
+                        <input minlength="3" maxlength="32" name="passwordConnexion" required type="password" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="confirmPasswordConnexion">Confirmer le mot de passe</label>
-                        <input name="confirmPasswordConnexion" type="password" >
+                        <input minlength="3" maxlength="32" name="confirmPasswordConnexion" type="password" >
                     </div>
                 </div>
 
@@ -75,7 +75,7 @@
 
                     <div>
                         <label for="socialCompany">raison sociale</label>
-                        <input name="socialCompany" required type="text" >
+                        <input minlength="2" maxlength="64" name="socialCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -87,31 +87,31 @@
 
                     <div>
                         <label for="nameCompany">prénom</label>
-                        <input name="nameCompany" required type="text" >
+                        <input minlength="3" maxlength="32" name="nameCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="familyNameCompany">Nom</label>
-                        <input name="familyNameCompany" required type="text" >
+                        <input minlength="3" maxlength="32" name="familyNameCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="addressCompany">Adresse postale</label>
-                        <input name="addressCompany" required type="text" >
+                        <input minlength="3" maxlength="64" name="addressCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="buildingCompany">appartement / bâtiment numéro ou lettre</label>
-                        <input name="buildingCompany" required type="text" >
+                        <input minlength="3" maxlength="64" name="buildingCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="stateCompany">région / département</label>
-                        <input name="stateCompany" required type="text" >
+                        <input minlength="3" maxlength="32" name="stateCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -123,13 +123,13 @@
 
                     <div>
                         <label for="cityCompany">Ville</label>
-                        <input name="cityCompany" required type="text" >
+                        <input minlength="3" maxlength="64" name="cityCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="countryCompany">Pays</label>
-                        <input name="countryCompany" required type="text" >
+                        <input minlength="3" maxlength="64" name="countryCompany" required type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -145,19 +145,19 @@
 
                     <div>
                         <label for="nameFacture">Nom</label>
-                        <input class="factureInput" required name="nameFacture" type="text" >
+                        <input minlength="3" maxlength="32" class="factureInput" required name="nameFacture" type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="familyNameFacture">Prénom</label>
-                        <input class="factureInput" required name="familyNameFacture" type="text" >
+                        <input minlength="3" maxlength="32" class="factureInput" required name="familyNameFacture" type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="addressFacture">Adresse postale</label>
-                        <input class="factureInput" required name="addressFacture" type="text" >
+                        <input minlength="3" maxlength="64" class="factureInput" required name="addressFacture" type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -168,7 +168,7 @@
 
                     <div>
                         <label for="stateFacture">Région / département</label>
-                        <input class="factureInput" required name="stateFacture" type="text" >
+                        <input minlength="3" maxlength="32" class="factureInput" required name="stateFacture" type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -180,13 +180,13 @@
                     
                     <div>
                         <label for="cityFacture">Ville</label>
-                        <input class="factureInput" required name="cityFacture" type="text" >
+                        <input minlength="3" maxlength="64" class="factureInput" required name="cityFacture" type="text" >
                         <span class="asterix">*</span>
                     </div>
 
                     <div>
                         <label for="countryFacture">Pays</label>
-                        <input class="factureInput" required name="countryFacture" type="text" >
+                        <input minlength="3" maxlength="32" class="factureInput" required name="countryFacture" type="text" >
                         <span class="asterix">*</span>
                     </div>
 
@@ -213,6 +213,7 @@
 </main>
 
 <script src="./app/js/registerDisabler.js"></script>
+<script src="./app/js/notificationManager.js"></script>
 <script></script>
 
 <?php

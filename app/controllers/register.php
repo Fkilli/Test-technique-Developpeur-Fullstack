@@ -2,6 +2,7 @@
 
 class register{
 
+    //création de l'utilisateur,autheur,entreprise et facture
     function createUser(){
         $email = htmlspecialchars($_POST["emailConnexion"]);
         $password = htmlspecialchars($_POST["passwordConnexion"]);
@@ -39,6 +40,7 @@ class register{
         }
 
             $password = password_hash($password, PASSWORD_DEFAULT);
+
             $user = array(
                 "email" => $email,
                 "password" => $password,
@@ -53,6 +55,7 @@ class register{
             $register -> insertRegister($author,$company,$facture,$user);
     }
 
+    //creation et vérification de l'autheur.
     function createArtist(){
         $authorName = htmlspecialchars($_POST["authorName"]);
         $familyNameAuthor = htmlspecialchars($_POST["familyNameAuthor"]);
@@ -70,7 +73,7 @@ class register{
             exit();            
         }
 
-        if(empty($_POST["gender"])){
+        if(empty($_POST["genderAuthor"])){
             $genderAuthor = "noGenderSelected";
         } else {
             $genderAuthor = htmlspecialchars($_POST["genderAuthor"]);
@@ -90,7 +93,6 @@ class register{
             }
         }
         
-
         if(!preg_match("#^(\+33|0)[67][0-9]{8}$#", $phoneAuthor)){
             echo "<span class='notification'>Votre numéro est incorrect</span>";
             exit();
@@ -119,6 +121,7 @@ class register{
         return $author;
     }
 
+    //creation et vérification de l'entreprise.
     function createCompany(){
         $socialCompany = htmlspecialchars($_POST["socialCompany"]);
         $siretCompany = htmlspecialchars($_POST["siretCompany"]);
@@ -133,47 +136,52 @@ class register{
         $informationCompany = htmlspecialchars($_POST["informationCompany"]);
 
         if(strlen($socialCompany) < 2 || strlen($socialCompany) > 64){
-            echo "<span class='notification'>Votre raison social doit etre entre 2 et 64 charactère</span>";
+            echo "<span class='notification'>La raison sociale doit contenir entre 2 et 64 caractères.</span>";
             exit();
         }
 
         if(strlen($siretCompany) != 14){
-            echo "<span class='notification'>Votre siret doit contenir 14 chiffres</span>";
+            echo "<span class='notification'>Le SIRET que vous saisissez doit contenir 14 chiffres.</span>";
             exit();
         }
 
         if(strlen($nameCompany) < 3 || strlen($nameCompany) > 32){
-            echo "<span class='notification'>Votre prénom d'entreprise doit contenir entre 3 et 32 charactère</span>";
+            echo "<span class='notification'>Le prénom que vous utilisez pour l’entreprise doit contenir entre 3 et 32 caractères.</span>";
             exit();
         }
 
         if(strlen($familyNameCompany) < 3 || strlen($familyNameCompany) > 32){
-            echo "<span class='notification'>Votre prénom d'entreprise doit contenir entre 3 et 32 charactère</span>";
+            echo "<span class='notification'>Le prénom que vous utilisez pour l’entreprise doit contenir entre 3 et 32 caractères</span>";
             exit();
         }
 
         if(strlen($addressCompany) < 3 || strlen($addressCompany) > 64){
-            echo "<span class='notification'>Votre adresse postale doit contenir entre 3 et 64 charactère</span>";
+            echo "<span class='notification'>Votre adresse postale doit contenir entre 3 et 64 caractères</span>";
             exit();
         }
 
         if(strlen($buildingCompany) < 3 || strlen($buildingCompany) > 64){
-            echo "<span class='notification'>Votre appartement/bâtiment doit contenir entre 3 et 64 charactère</span>";
+            echo "<span class='notification'>Votre appartement/bâtiment doit contenir entre 3 et 64 caractères</span>";
             exit();
         }
 
         if(strlen($stateCompany) < 3 || strlen($stateCompany) > 32){
-            echo "<span class='notification'>Votre région/département doit contenir entre 3 et 64 charactère</span>";
+            echo "<span class='notification'>Votre région/département doit contenir entre 3 et 64 caractères</span>";
+            exit();
+        }
+
+        if(strlen($zipCompany) != 5){
+            echo "<span class='notification'>Votre code postal doit contenir 5 chiffres</span>";
             exit();
         }
 
         if(strlen($cityCompany) < 3 || strlen($cityCompany) > 32){
-            echo "<span class='notification'>Votre ville doit contenir entre 3 et 64 charactère</span>";
+            echo "<span class='notification'>Votre ville doit contenir entre 3 et 64 caractères</span>";
             exit();
         }
 
         if(strlen($countryCompany) < 3 || strlen($countryCompany) > 32){
-            echo "<span class='notification'>Votre pays doit contenir entre 3 et 64 charactère</span>";
+            echo "<span class='notification'>Votre pays doit contenir entre 3 et 64 caractères</span>";
             exit();
         }
 
@@ -194,6 +202,7 @@ class register{
         return $company;
     }
 
+    //creation et vérification de la facture.
     function createFacture(){
         if(!empty($_POST["companyAndFacture"])){
 
@@ -226,32 +235,37 @@ class register{
             $informationFacture = htmlspecialchars($_POST["informationFacture"]);
 
             if(strlen($nameFacture) < 3 || strlen($nameFacture) > 32){
-                echo "<span class='notification'>Votre prénom d'entreprise doit contenir entre 3 et 32 charactère</span>";
+                echo "<span class='notification'>Votre prénom, pour la facture, doit contenir entre 3 et 32 caractères.</span>";
                 exit();
             }
 
             if(strlen($familyNameFacture) < 3 || strlen($familyNameFacture) > 32){
-                echo "<span class='notification'>Votre prénom d'entreprise doit contenir entre 3 et 32 charactère</span>";
+                echo "<span class='notification'>Votre nom, pour la facture, doit contenir entre 3 et 32 caractères.</span>";
                 exit();
             }
 
             if(strlen($addressFacture) < 3 || strlen($addressFacture) > 64){
-                echo "<span class='notification'>Votre adresse postale doit contenir entre 3 et 64 charactère</span>";
+                echo "<span class='notification'>Votre adresse postale doit contenir entre 3 et 64 caractères</span>";
                 exit();
             }
 
             if(strlen($stateFacture) < 3 || strlen($stateFacture) > 32){
-                echo "<span class='notification'>Votre région/département doit contenir entre 3 et 64 charactère</span>";
+                echo "<span class='notification'>Votre région/département doit contenir entre 3 et 64 caractères</span>";
+                exit();
+            }
+
+            if(strlen($zipFacture) != 5){
+                echo "<span class='notification'>Votre code postal doit contenir 5 chiffres</span>";
                 exit();
             }
 
             if(strlen($cityFacture) < 3 || strlen($cityFacture) > 32){
-                echo "<span class='notification'>Votre ville doit contenir entre 3 et 64 charactère</span>";
+                echo "<span class='notification'>Votre ville doit contenir entre 3 et 64 caractères.</span>";
                 exit();
             }
 
             if(strlen($countryFacture) < 3 || strlen($countryFacture) > 32){
-                echo "<span class='notification'>Votre pays doit contenir entre 3 et 64 charactère</span>";
+                echo "<span class='notification'>Votre pays doit contenir entre 3 et 64 caractères.</span>";
                 exit();
             }
 
@@ -271,41 +285,8 @@ class register{
         }
     }
 
+    //insere dans la base de données artiste, entreprise, facture et utilisateur avec ajout de l'id utilisateur.
     function insertRegister($author,$company,$facture,$user){
-
-        $nameAuthor = $author["authorName"];
-        $familyNameAuthor = $author["familyNameAuthor"];
-        $genderAuthor = $author["genderAuthor"];
-        $birthdayAuthor = $author["birthdayAuthor"];
-        $phoneAuthor = $author["phoneAuthor"];
-        $fixPhoneAuthor = $author["fixPhoneAuthor"];
-        $websiteAuthor = $author["websiteAuthor"];
-
-        $socialCompany = $company["socialCompany"];
-        $siretCompany = $company["siretCompany"];
-        $nameCompany = $company["nameCompany"];
-        $familyNameCompany = $company["familyNameCompany"];
-        $addressCompany = $company["addressCompany"];
-        $buildingCompany = $company["buildingCompany"];
-        $stateCompany = $company["stateCompany"];
-        $zipCompany = $company["zipCompany"];
-        $cityCompany = $company["cityCompany"];
-        $countryCompany = $company["countryCompany"];
-        $informationCompany = $company["informationCompany"];
-
-        $nameFacture = $facture["nameFacture"];
-        $familyNameFacture = $facture["familyNameFacture"];
-        $addressFacture = $facture["addressFacture"];
-        $buidldingFacture = $facture["buidldingFacture"];
-        $stateFacture = $facture["stateFacture"];
-        $zipFacture = $facture["zipFacture"];
-        $cityFacture = $facture["cityFacture"];
-        $countryFacture = $facture["countryFacture"];
-        $informationFacture = $facture["informationFacture"];
-
-        $password = $user["password"];
-        $email = $user["email"];
-        $newsletter = $user["newsletter"];
 
         require_once("./app/models/user.php");
         require_once("./app/models/author.php");
@@ -313,18 +294,20 @@ class register{
         require_once("./app/models/facture.php");
         
     
-        $user = new user();
-        $author = new author();
-        $company = new company();
-        $facture = new facture();
+        $userFunction = new user();
+        $authorFunction = new author();
+        $companyFunction = new company();
+        $factureFunction = new facture();
         
-        $user -> insertUser($password,$email,$newsletter);
+        $userFunction -> insertUser($user);
 
-        $userId = $user -> selectThisUser($email);
+        $userId = $userFunction -> selectThisUser($user["email"]);
         $userId = $userId["id"];
 
-        $author -> insertAuthor($userId,$nameAuthor,$familyNameAuthor,$genderAuthor,$birthdayAuthor,$phoneAuthor,$fixPhoneAuthor,$websiteAuthor);
-        $company -> insertCompany($userId,$socialCompany,$siretCompany,$nameCompany,$familyNameCompany,$addressCompany,$buildingCompany,$stateCompany,$zipCompany,$cityCompany,$countryCompany,$informationCompany);
-        $facture -> insertFacture($userId,$nameFacture,$familyNameFacture,$addressFacture,$buidldingFacture,$stateFacture,$zipFacture,$cityFacture,$countryFacture,$informationFacture);
+        $authorFunction -> insertAuthor($userId,$author);
+        $companyFunction -> insertCompany($userId,$company);
+        $factureFunction -> insertFacture($userId,$facture);
+
+        echo "<span class='notification notificationGreen'>Votre compte est maintenant créé !</span>";
     }
 }

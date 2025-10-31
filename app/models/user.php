@@ -18,24 +18,24 @@ class user{
             $sth -> execute();
     }
 
-    function insertUser($password,$email,$newsletter){
+    function insertUser($user){
         require_once("./app/models/model.php");
 
-        $user = new user();
-        $user -> createUser();
+        $userFunction = new user();
+        $userFunction -> createUser();
 
         $sql = "INSERT INTO user (email,password,newsletter) VALUES (?,?,?)";
 
         $dbh = dataBase();
         $sth = $dbh -> prepare($sql);
-        $sth -> execute([$email,$password,$newsletter]);
+        $sth -> execute([$user["email"],$user["password"],$user["newsletter"]]);
     }
 
     function selectThisUser($email){
         require_once("./app/models/model.php");
 
-        $user = new user();
-        $user -> createUser();
+        $userFunction = new user();
+        $userFunction -> createUser();
 
         $sql = "SELECT * FROM user WHERE email=?";
 

@@ -26,17 +26,17 @@ class company{
         $sth -> execute();
     }
 
-    function insertCompany($userId,$socialCompany,$siretCompany,$nameCompany,$familyNameCompany,$addressCompany,$buildingCompany,$stateCompany,$zipCompany,$cityCompany,$countryCompany,$informationCompany){
+    function insertCompany($userId,$company){
         require_once("./app/models/model.php");
 
-        $company = new company();
-        $company -> createCompanyModel();
+        $companyFunction = new company();
+        $companyFunction -> createCompanyModel();
 
         $sql = "INSERT INTO company (userId,social,siret,name,familyName,address,building,state,zip,city,country,information) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
 
         $dbh = dataBase();
         $sth = $dbh -> prepare($sql);
-        $sth -> execute([$userId,$socialCompany,$siretCompany,$nameCompany,$familyNameCompany,$addressCompany,$buildingCompany,$stateCompany,$zipCompany,$cityCompany,$countryCompany,$informationCompany]);
+        $sth -> execute([$userId,$company["socialCompany"],$company["siretCompany"],$company["nameCompany"],$company["familyNameCompany"],$company["addressCompany"],$company["buildingCompany"],$company["stateCompany"],$company["zipCompany"],$company["cityCompany"],$company["countryCompany"],$company["informationCompany"]]);
 
     }
 }

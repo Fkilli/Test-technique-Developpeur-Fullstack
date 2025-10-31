@@ -24,16 +24,16 @@ class facture{
         $sth -> execute();
     }
 
-    function insertFacture($userId,$nameFacture,$familyNameFacture,$addressFacture,$buidldingFacture,$stateFacture,$zipFacture,$cityFacture,$countryFacture,$informationFacture){
+    function insertFacture($userId,$facture){
         require_once("./app/models/model.php");
 
-        $company = new facture();
-        $company -> createFactureModel();
+        $companyFunction = new facture();
+        $companyFunction -> createFactureModel();
 
         $sql = "INSERT INTO facture (userId,name,familyName,address,building,state,zip,city,country,information) VALUES (?,?,?,?,?,?,?,?,?,?)";
 
         $dbh = dataBase();
         $sth = $dbh -> prepare($sql);
-        $sth -> execute([$userId,$nameFacture,$familyNameFacture,$addressFacture,$buidldingFacture,$stateFacture,$zipFacture,$cityFacture,$countryFacture,$informationFacture]);
+        $sth -> execute([$userId,$facture["nameFacture"],$facture["familyNameFacture"],$facture["addressFacture"],$facture["buidldingFacture"],$facture["stateFacture"],$facture["zipFacture"],$facture["cityFacture"],$facture["countryFacture"],$facture["informationFacture"]]);
     }
 }

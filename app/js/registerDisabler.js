@@ -1,13 +1,10 @@
-function registerDisabler(checkbox){
-    if(checkbox.checked == true){
-        let input = document.getElementsByClassName("factureInput");
-        for(key in input){
-            input[key].setAttribute("disabled", "true");
-        }
-    } else{
-        let input = document.getElementsByClassName("factureInput");
-        for(key in input){
-            input[key].removeAttribute("disabled");
+function registerDisabler(checkbox) {
+    const inputs = document.getElementsByClassName("factureInput");
+    for (let i = 0; i < inputs.length; i++) {
+        if (checkbox.checked) {
+            inputs[i].setAttribute("disabled", "true");
+        } else {
+            inputs[i].removeAttribute("disabled");
         }
     }
 }
