@@ -60,7 +60,8 @@
 
                     <div>
                         <label for="passwordConnexion">Mot de passe</label>
-                        <input minlength="3" maxlength="32" name="passwordConnexion" required type="password" >
+                        <input id="togglePassword" minlength="3" maxlength="32" name="passwordConnexion" required type="password" >
+                        <img width="16px" class="asterix password" src="./app/assets/eyePassword.svg" alt="togggle" onCLick="passwordToggle()">
                         <span class="asterix">*</span>
                     </div>
 
@@ -214,6 +215,4 @@
     </section>
 </main>
 
-<script src="./app/js/registerDisabler.js"></script>
-<script src="./app/js/notificationManager.js"></script>
-<script src="./app/js/ajax.js"></script>
+<script src="./app/js/register.js"></script>

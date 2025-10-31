@@ -2023,6 +2023,11 @@ footer {
     top: 10px;
   }
 
+  .password{
+    left: 250px;
+    cursor: pointer;
+  }
+
   .checkboxDiv {
     margin: 20px 0;
     font-size: 9px;
@@ -2185,6 +2190,12 @@ footer {
       left: auto;
       right: 10px;
     }
+
+      .password{
+      left: auto;
+      right: 25px;
+    }
+
 
     input[type=submit] {
       max-width: 100%;
