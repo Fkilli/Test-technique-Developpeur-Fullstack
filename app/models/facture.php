@@ -18,14 +18,14 @@ class facture{
         )";
 
             
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
         $dbh = dataBase();
         $sth = $dbh -> prepare($sql);
         $sth -> execute();
     }
 
     function insertFacture($userId,$facture){
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
 
         $companyFunction = new facture();
         $companyFunction -> createFactureModel();

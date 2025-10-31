@@ -12,14 +12,14 @@ class user{
             )";
 
             
-            require_once("./app/models/model.php");
+            require_once("../models/model.php");
             $dbh = dataBase();
             $sth = $dbh -> prepare($sql);
             $sth -> execute();
     }
 
     function insertUser($user){
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
 
         $userFunction = new user();
         $userFunction -> createUser();
@@ -32,7 +32,7 @@ class user{
     }
 
     function selectThisUser($email){
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
 
         $userFunction = new user();
         $userFunction -> createUser();

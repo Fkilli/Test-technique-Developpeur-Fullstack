@@ -1,5 +1,10 @@
 <?php 
 
+if(!empty($_POST["validateRegister"])){
+    $register = new register();
+    $register -> createUser();
+}
+
 class register{
 
     //création de l'utilisateur,autheur,entreprise et facture
@@ -30,7 +35,7 @@ class register{
             exit();
         }
 
-        require_once("./app/models/user.php");
+        require_once("../models/user.php");
         $user = new user();
         $verifyEmail = $user -> selectThisUser($email);
 
@@ -288,10 +293,10 @@ class register{
     //insere dans la base de données artiste, entreprise, facture et utilisateur avec ajout de l'id utilisateur.
     function insertRegister($author,$company,$facture,$user){
 
-        require_once("./app/models/user.php");
-        require_once("./app/models/author.php");
-        require_once("./app/models/company.php");
-        require_once("./app/models/facture.php");
+        require_once("../models/user.php");
+        require_once("../models/author.php");
+        require_once("../models/company.php");
+        require_once("../models/facture.php");
         
     
         $userFunction = new user();

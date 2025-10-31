@@ -6,7 +6,7 @@
                 <p>Créer un compte vous donne l'opportunité d'exposer vos oeuvres sur la platerforme Art Interactivities et donc de gagner en visibilité ! Cette mise en avant augmentera vos ventes en ligne et votre notoriété. Rejoignez notre communauté d'artiste vendeur Talentueux !</p>
             </div>
 
-            <form method="post" action="?path=register">
+            <form id="registerForm">
                 <div>
                     <h2>1. Coordonnées de l'artiste</h2>
                     <div>
@@ -209,17 +209,11 @@
             </form>
         </div>
 
+        <div id="message"></div>
+
     </section>
 </main>
 
 <script src="./app/js/registerDisabler.js"></script>
 <script src="./app/js/notificationManager.js"></script>
-<script></script>
-
-<?php
-
-if(!empty($_POST["validateRegister"])){
-    require_once "./app/controllers/register.php";
-    $register = new register();
-    $register -> createUser();
-}
+<script src="./app/js/ajax.js"></script>

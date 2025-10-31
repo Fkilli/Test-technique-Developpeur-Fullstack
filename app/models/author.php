@@ -16,14 +16,14 @@ class author{
         )";
 
             
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
         $dbh = dataBase();
         $sth = $dbh -> prepare($sql);
         $sth -> execute();
     }
 
     function insertAuthor($userId,$author){
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
 
         $authorFunction = new author();
         $authorFunction -> createAuthor();

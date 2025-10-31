@@ -1568,24 +1568,28 @@ footer {
     &::before {
       content: none;
     }
-
-    span {
-      display: block;
-    }
   }
 
   .h1WithLegal {
     display: flex;
     gap: 9px;
     font-size: 9px;
+
+    span {
+      display: block;
+
+      a{
+        color: black;
+        text-decoration: none;
+      }
+    }
+
   }
 
-  .resize > {
-    a, span {
+  .resize > a, .resize > span {
       color: red;
       font-size: 10px;
     }
-  }
 }
 
 /**footerResponsive**/

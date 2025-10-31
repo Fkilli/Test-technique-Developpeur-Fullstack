@@ -20,14 +20,14 @@ class company{
         )";
 
             
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
         $dbh = dataBase();
         $sth = $dbh -> prepare($sql);
         $sth -> execute();
     }
 
     function insertCompany($userId,$company){
-        require_once("./app/models/model.php");
+        require_once("../models/model.php");
 
         $companyFunction = new company();
         $companyFunction -> createCompanyModel();
