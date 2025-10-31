@@ -2,7 +2,7 @@
     <section id="register">
         <div class="resize">
             <div class="exposition">
-                <h1><img src="./app/assets/exposition.png" alt="">Pour exposer inscrivez-vous <span>en tant qu'</span>Artiste</h1>
+                <h1><img src="./app/assets/exposition.png" alt="Exposition">Pour exposer inscrivez-vous <span>en tant qu'</span>Artiste</h1>
                 <p>Créer un compte vous donne l'opportunité d'exposer vos oeuvres sur la platerforme Art Interactivities et donc de gagner en visibilité ! Cette mise en avant augmentera vos ventes en ligne et votre notoriété. Rejoignez notre communauté d'artiste vendeur Talentueux !</p>
             </div>
 
@@ -61,7 +61,7 @@
                     <div>
                         <label for="passwordConnexion">Mot de passe</label>
                         <input id="togglePassword" minlength="3" maxlength="32" name="passwordConnexion" required type="password" >
-                        <img width="16px" class="asterix password" src="./app/assets/eyePassword.svg" alt="togggle" onCLick="passwordToggle()">
+                        <img width="16px" class="asterix password" src="./app/assets/eyePassword.svg" alt="affiche/cache le mot de passe" onCLick="passwordToggle()">
                         <span class="asterix">*</span>
                     </div>
 

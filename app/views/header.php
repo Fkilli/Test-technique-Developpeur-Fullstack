@@ -3,10 +3,10 @@
         <div class="resize">
             <nav class="primaryNav">
                 <ul>
-                    <li class="menuLink"><a href="#"><img width="4px" src="./app/assets/menu.svg" alt="">Menu</a></li>
-                    <li class="deviseLink"><a href="#"><img width="8px" height="17px" src="./app/assets/euro.svg" alt=""><span>Euro</span></a></li>
-                    <li class="languageLink"><a href="#"><img width="14px" height="9px" src="./app/assets/fr.svg" alt=""><span>Français</span></a></li>
-                    <li class="contactLink"><a href="#"><img width="13px" src="./app/assets/mail.svg" alt=""><span>Contactez-nous</span></a></li>
+                    <li class="menuLink"><a href="#"><img width="4px" src="./app/assets/menu.svg" alt="Menu">Menu</a></li>
+                    <li class="deviseLink"><a href="#"><img width="8px" height="17px" src="./app/assets/euro.svg" alt="Euro"><span>Euro</span></a></li>
+                    <li class="languageLink"><a href="#"><img width="14px" height="9px" src="./app/assets/fr.svg" alt="Français"><span>Français</span></a></li>
+                    <li class="contactLink"><a href="#"><img width="13px" src="./app/assets/mail.svg" alt="Contactez-nous"><span>Contactez-nous</span></a></li>
                 </ul>
             </nav>
             <nav class="secondaryNav" class="resize">
@@ -21,10 +21,10 @@
     </div>
     <div id="bottomHeader">
         <div class="resize">
-            <a class="menuLink" href="#"><img width="4px" src="./app/assets/menu.svg" alt=""></a>
-            <h1><a href="./"><img src="./app/assets/logo.svg" width="52px" height="28px" alt=""><span>Art Interactivities</span></a></h1>
+            <a class="menuLink" href="#"><img width="4px" src="./app/assets/menu.svg" alt="Menu"></a>
+            <h1><a href="./"><img src="./app/assets/logo.svg" width="52px" height="28px" alt="Logo Art INTERACTIVITIES"><span>Art Interactivities</span></a></h1>
             <div class="searchButton">
-                <img width="12px" height="12px" src="./app/assets/magnifying.svg" alt="">
+                <img width="12px" height="12px" src="./app/assets/magnifying.svg" alt="Rechercher">
                 <input type="search" placeholder="Rechercher">
             </div>
         </div>

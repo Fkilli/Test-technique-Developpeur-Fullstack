@@ -1,5 +1,5 @@
     <div class="resize">
-        <span class="fakeAriane"><img width="9px" height="9px" src="./app/assets/home.svg" alt=""> /art shop/oeuvre/peinture/emmanuelle martin/jeune fille à la perle</span>
+        <span class="fakeAriane"><img width="9px" height="9px" src="./app/assets/home.svg" alt="home"> /art shop/oeuvre/peinture/emmanuelle martin/jeune fille à la perle</span>
     </div>
 
 <section id="thisArt">
@@ -24,17 +24,17 @@
                         Oeuvre unique ou série n' 4/4<br>
                         <span class="grayInformation">Acrylique sur toile, 130 x 97 cm<br></span>
                         <span class="yellowInformation">1 Kilogramme<br></span>
-                        Prêt à étre accroché <img src="./app/assets/information.svg" alt="" class="informationButton"> <span class="answer">Non ou Oui</span><br>
+                        Prêt à étre accroché <img src="./app/assets/information.svg" alt="information" class="informationButton"> <span class="answer">Non ou Oui</span><br>
                         L'oeuvre est localisé: <span class="answer">France<br></span>
                         <strong>Livraison par des spécialistes</strong> <img src="./app/assets/information.svg" alt="" class="informationButton">
                     </p>
                 </div>
                 <div>
                     <h3>3000 €</h3>
-                    <span class="multiPayment">Payer en 3x sans frais <img src="./app/assets/information.svg" alt="" class="informationButton"></span>
+                    <span class="multiPayment">Payer en 3x sans frais <img src="./app/assets/information.svg" alt="information" class="informationButton"></span>
                     <form>
                         <div><input type="checkbox"><label>Demandez une dédicace</label></div>
-                        <div><input type="checkbox"><label>Cadeau, personnaliser un message <img src="./app/assets/information.svg" alt="" class="informationButton"></label></div>
+                        <div><input type="checkbox"><label>Cadeau, personnaliser un message <img src="./app/assets/information.svg" alt="information" class="informationButton"></label></div>
                         <input type="submit" value="Acquérir l'oeuvre">
                         <input class="alternativeSubmit" type="submit" value="Proposer un prix">
                     </form>
@@ -57,11 +57,11 @@
                     <div>
                         <div class="audioInformation">
                             <span>Information<br>sonore</span>
-                            <img src="./app/assets/audio.svg" alt="">
+                            <img src="./app/assets/audio.svg" alt="audio">
                             <div class="flagsList">
-                                <img src="./app/assets/fr.svg" alt="">
-                                <img src="./app/assets/it.svg" alt="">
-                                <img src="./app/assets/ge.svg" alt="">
+                                <img src="./app/assets/fr.svg" alt="français">
+                                <img src="./app/assets/it.svg" alt="italien">
+                                <img src="./app/assets/ge.svg" alt="allemand">
                             </div>
                         </div>
 
@@ -74,11 +74,11 @@
 
                     <div class="callBack">
                         <div>
-                            <img height="14px" src="./app/assets/questionMarkGray.svg" alt="">
+                            <img height="14px" src="./app/assets/questionMarkGray.svg" alt="Poser une question">
                             <span>Poser une question</span>
                         </div>
                         <div>
-                            <img height="13px" src="./app/assets/phone.svg" alt="">
+                            <img height="13px" src="./app/assets/phone.svg" alt="téléphone">
                             <span>Etre rappelé</span>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
             </div>
 
                     <div class="artSelector">
-                        <img src="./app/assets/arrow.svg" alt="">
+                        <img src="./app/assets/arrow.svg" alt="flèche">
                         <div>
                             <img src="./app/assets/artPictures/listPicture (1)" alt="">
                             <img src="./app/assets/artPictures/listPicture (2)" alt="">
@@ -102,8 +102,8 @@
                     <div class="mainArt">
                         <img src="./app/assets/artPictures/mainPicture.jpg" alt="">
                         <div>
-                            <img width="14px" src="./app/assets/heart.svg" alt="">
-                            <img width="14px" src="./app/assets/share.svg" alt="">
+                            <img width="14px" src="./app/assets/heart.svg" alt="j'aime">
+                            <img width="14px" src="./app/assets/share.svg" alt="partager">
                             <span class="view">10 vues</span>
                         </div>
                     </div>
@@ -117,18 +117,18 @@
                 
                     <div class="audioInformation">
                         <span>Information<br>sonore</span>
-                        <img src="./app/assets/audio.svg" alt="">
+                        <img src="./app/assets/audio.svg" alt="audio">
                         <div class="flagsList">
-                            <img src="./app/assets/fr.svg" alt="">
-                            <img src="./app/assets/it.svg" alt="">
-                            <img src="./app/assets/ge.svg" alt="">
+                            <img src="./app/assets/fr.svg" alt="français">
+                            <img src="./app/assets/it.svg" alt="italien">
+                            <img src="./app/assets/ge.svg" alt="allemand">
                         </div>
                     </div>
 
                     <div class="aboutArtDescription">
                         <p>Artiste de l’image Holly Watt est une photographe française. Elle a eu une enfance riche en voyages et en découvertes ce qui l’a rendue à l’affût de toutes sortes d’émotions. Elle découvre la photographie pendant son adolescence et commence à faire ses premières photos en argentique. Avec son appareil en bandoulière, elle effectue plusieurs tours du monde pendant de nombreuses années. D’une grande curiosité et avec une sensibilité qui lui est propre, Holly aime susciter l’émotion dans notre regard. Attachée à notre planète, elle s’inspire de ses œuvres d’art naturelles. Holly nous invite au voyage avec elle dans son univers.</p>
                         <span class="readMore">Lire la suite</span>
-                        <span class="autoTranslate"><img src="./app/assets/information.svg" alt="" class="informationButton">Traduit automatiquement</span>
+                        <span class="autoTranslate"><img src="./app/assets/information.svg" alt="information" class="informationButton">Traduit automatiquement</span>
                     </div>
 
                 </div>
@@ -145,17 +145,17 @@
                         Technique: <span class="answer">Acrylique sur toile<br></span>
                         Dimension: <span class="answer">130 x 97cm<br></span>
                         <span class="yellowInformation">Poids: <span class="answer">1Kg</span></span><br>
-                        Prêt à être accroché <img src="./app/assets/information.svg" alt="" class="informationButton"> <span class="answer">Non</span><br>
+                        Prêt à être accroché <img src="./app/assets/information.svg" alt="information" class="informationButton"> <span class="answer">Non</span><br>
                         Localisation de l'oeuvre: <span class="answer">FRANCE<br></span>
-                        <strong>Livraison par des spécialistes</strong> <img src="./app/assets/information.svg" alt="" class="informationButton">
+                        <strong>Livraison par des spécialistes</strong> <img src="./app/assets/information.svg" alt="information" class="informationButton">
                     </p>
                 </div>
                 <div>
                     <h3>3000 €</h3>
-                    <span class="multiPayment">Payer en 3x sans frais <img src="./app/assets/information.svg" alt="" class="informationButton"></span>
+                    <span class="multiPayment">Payer en 3x sans frais <img src="./app/assets/information.svg" alt="information" class="informationButton"></span>
                     <form>
                         <div><input type="checkbox"><label>Demandez une dédicace</label></div>
-                        <div><input type="checkbox"><label>Cadeau, personnaliser un message <img src="./app/assets/information.svg" alt="" class="informationButton"></label></div>
+                        <div><input type="checkbox"><label>Cadeau, personnaliser un message <img src="./app/assets/information.svg" alt="information" class="informationButton"></label></div>
                         <input type="submit" value="Acquérir l'oeuvre">
                         <input class="alternativeSubmit" type="submit" value="Proposer un prix">
                     </form>
@@ -186,11 +186,11 @@
 
                     <div class="callBack">
                         <div>
-                            <img height="14px" src="./app/assets/questionMark.svg" alt="">
+                            <img height="14px" src="./app/assets/questionMark.svg" alt="Poser une question">
                             <span>Poser une question</span>
                         </div>
                         <div>
-                            <img height="13px" src="./app/assets/phone.svg" alt="">
+                            <img height="13px" src="./app/assets/phone.svg" alt="Etre rappelé">
                             <span>Etre rappelé</span>
                         </div>
                     </div>
@@ -210,9 +210,9 @@
                 </ul>
             </div>
             <div class="profilAuthor">
-                <img src="./app/assets/avatar/authorPicture.jpg" alt="" class="authorPicture">
+                <img src="./app/assets/avatar/authorPicture.jpg" alt="Avatar de l'auteur" class="authorPicture">
                 <div>
-                    <h1>Emmanuelle Martin <img src="./app/assets/fr.svg"></h1>
+                    <h1>Emmanuelle Martin <img src="./app/assets/fr.svg" alt="français"></h1>
                     <a href="#">Découvrir son profil</a>
                     <p>10 oeuvres en vente</p>
                     <p>+ Suivre l'artiste</p>

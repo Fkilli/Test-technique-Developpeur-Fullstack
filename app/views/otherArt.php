@@ -13,7 +13,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture1.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -29,7 +29,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -43,7 +43,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture2.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -59,7 +59,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -73,7 +73,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture3.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -89,7 +89,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -118,7 +118,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture1.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -134,7 +134,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -148,7 +148,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture2.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -164,7 +164,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -178,7 +178,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture3.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -194,7 +194,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -224,7 +224,7 @@
                 <div>
                     <div class="artAndHeart">
                         <span class="soldOutArt">Vendue</span>
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture1.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -240,7 +240,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -255,7 +255,7 @@
                 <div>
                     <div class="artAndHeart">
                         <span class="soldOutArt">Vendue</span>
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture2.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -271,7 +271,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -286,7 +286,7 @@
                 <div>
                     <div class="artAndHeart">
                         <span class="soldOutArt">Vendue</span>
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture3.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -302,7 +302,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -331,7 +331,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture4.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -347,7 +347,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -361,7 +361,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture5.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -377,7 +377,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         
@@ -391,7 +391,7 @@
             <div class="thisArt">
                 <div>
                     <div class="artAndHeart">
-                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="">
+                        <img class="heartArt" src="./app/assets/heart.svg" width="15px" alt="aimer">
                         <img src="./app/assets/artPictures/artPicture6.jpg" alt="">
                         <span>280 vues</span>
                     </div>
@@ -407,7 +407,7 @@
                                 <span>Peintre</span>
                                 <span>Sculpteur</span>
                             </div>
-                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt=""> Gironde, FRANCE</span>
+                            <span class="localisation"><img src="./app/assets/localisation.svg" width="7px" alt="localisation"> Gironde, FRANCE</span>
                             <span class="price"><strong>3 000€</strong></span>
                         </div>
                         

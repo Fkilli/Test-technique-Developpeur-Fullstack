@@ -7,16 +7,16 @@
                     <div>
                         <span>TrustPilot</span>
                         <div>
-                            <img width="17px" src="./app/assets/star.svg" alt="">
-                            <img width="17px" src="./app/assets/star.svg" alt="">
-                            <img width="17px" src="./app/assets/star.svg" alt="">
-                            <img width="17px" src="./app/assets/star.svg" alt="">
-                            <img width="17px" src="./app/assets/star.svg" alt="">
+                            <img width="17px" src="./app/assets/star.svg" alt="Note">
+                            <img width="17px" src="./app/assets/star.svg" alt="Note">
+                            <img width="17px" src="./app/assets/star.svg" alt="Note">
+                            <img width="17px" src="./app/assets/star.svg" alt="Note">
+                            <img width="17px" src="./app/assets/star.svg" alt="Note">
                         </div>
                     </div>
-                    <img src="./app/assets/trustPilot.jpg" alt="">
-                    <img src="./app/assets/trustPilot.jpg" alt="">
-                    <img src="./app/assets/trustPilot.jpg" alt="">
+                    <img src="./app/assets/trustPilot.jpg" alt="TrustPilot">
+                    <img src="./app/assets/trustPilot.jpg" alt="TrustPilot">
+                    <img src="./app/assets/trustPilot.jpg" alt="TrustPilot">
                 </div>
             </div>
         </div>
@@ -28,25 +28,25 @@
                 <h1>Comment ça se passe</h1>
                 <div class="listKnowledge">
                     <div>
-                        <img src="./app/assets/knowledge/selected.png" alt="">
+                        <img src="./app/assets/knowledge/selected.png" alt="Séléection d'artiste">
                         <h2>Séléction d'artistes</h2>
                         <p>Emergents, confirmés <br>et reconnus</p>
                     </div>
 
                     <div>
-                        <img src="./app/assets/knowledge/lock.png" alt="">
+                        <img src="./app/assets/knowledge/lock.png" alt="Paiement Sécurisé">
                         <h2>Paiement Sécurisé</h2>
                         <p>Par carte bancaire, Paypal,<br>virement ou 3 fois sans frais</p>
                     </div>
 
                     <div>
-                        <img src="./app/assets/knowledge/drive.png" alt="">
+                        <img src="./app/assets/knowledge/drive.png" alt="Livraison Modiale">
                         <h2 class="redTitle">Livraison mondiale</h2>
                         <p>Par des transporteurs spécialisés<br>Livraison sous 7 jours en moyenne</p>
                     </div>
 
                     <div>
-                        <img src="./app/assets/knowledge/return.png" alt="">
+                        <img src="./app/assets/knowledge/return.png" alt="Retour Gratuits">
                         <h2>Retour gratuits</h2>
                         <p>14 jour après reception</p>
                     </div>
@@ -69,11 +69,11 @@
                 <div>
                     <h1 class="reverse">Suivre art interactivities</h1>
                     <div class="socialList">
-                        <img src="./app/assets/social/facebook.svg" alt="">
-                        <img src="./app/assets/social/twitter.svg" alt="">
-                        <img src="./app/assets/social/instagram.svg" alt="">
-                        <img src="./app/assets/social/pinterest.svg" alt="">
-                        <img src="./app/assets/social/linkedin.svg" alt="">
+                        <img src="./app/assets/social/facebook.svg" alt="Facebook">
+                        <img src="./app/assets/social/twitter.svg" alt="Twitter">
+                        <img src="./app/assets/social/instagram.svg" alt="Instagram">
+                        <img src="./app/assets/social/pinterest.svg" alt="Pinterest">
+                        <img src="./app/assets/social/linkedin.svg" alt="Linkedin">
                     </div>
                 </div>
                 <div>
@@ -81,7 +81,7 @@
                     <p>Inscrivez-vous ci-dessous pour vous inspirer, découvrir les nouveautés Art Interactivities et les recevoir en exclusivité. En vous inscrivant, vous acceptez et vous prenez connaissance de notre politique des données personnelles.</p>
                     <div class="EmailButton">
                         <input type="text" placeholder="Entrer votre adresse e-mail">
-                        <button><img src="./app/assets/arrowButton.svg"></button>
+                        <button><img src="./app/assets/arrowButton.svg" alt="confirmer flèche"></button>
                     </div>
                 </div>
             </section>
@@ -143,7 +143,7 @@
     <section id="bottomFooter">
         <div class="resize">
             <div class="h1WithLegal">
-                <img width="37px" src="./app/assets/logo.svg">
+                <img width="37px" src="./app/assets/logo.svg" alt="logo Art INTERACTIVITIES">
                 <div>
                     <h1>Art Interactivities</h1>
                     <span><a href="#">CGU</a> | <a href="#">Vie privée et cookie</a> | <a href="#">Mention légales</a> | <a href="#">CGV</a></span>
