@@ -150,7 +150,7 @@
                 </div>
             </div>
             <span>Copyright | &#169;2022</span>
-            <a href="#">Nous-contatez</a>
+            <a href="#">Nous-contactez</a>
         </div>
     </section>
 
